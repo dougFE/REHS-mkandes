@@ -1,2 +1,2 @@
 # REHS-mkandes
-For all work done through REHS with Marty Kandes of the San Diego Supercomputer Center.
+For all Comet data analysis work done through REHS with Marty Kandes of the San Diego Supercomputer Center.
