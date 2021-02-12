@@ -1,0 +1,11 @@
+#!/bin/bash
+#SBATCH --job-name="dask-workers"
+#SBATCH --output="dask-workers.%j.%N.out"
+#SBATCH --partition=compute
+#SBATCH --nodes=2
+#SBATCH --ntasks-per-node=24
+#SBATCH --export=ALL
+#SBATCH -t 0:20:00
+
+
+ibrun --npernode 1 bash ./launch_worker.sh
