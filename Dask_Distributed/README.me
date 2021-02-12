@@ -1,5 +1,5 @@
 Use srun to start up jupter lab. 
-When its open go into jupyter's terminal and launch the scheduler with "bash launch_scheduler.sh".
+When it's open go into jupyter's terminal and launch the scheduler with "bash launch_scheduler.sh".
 Then open up another terminal on comets login node and start the other two nodes and associated dask-workers with "sbatch dask_workers.slrm"
 Then just use the Jupyter notebook and change the client address to the one given by the scheduler. When submitting jobs to the scheduler it is not nessisary to define what worker its going to.
 The locations of the dask-workers as well as their nannys will be in the output file like the one in this directory. 
