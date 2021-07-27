@@ -1,0 +1,2 @@
+This folder should contain all code and work done for the file benchmarking project. This includes the benchmarking software,
+pdfs and spreadsheets used for reporting purposes, and some extra tools used during the project.
