@@ -1,0 +1,1 @@
+Directory contains all work done with collecting, formatting and analyzing comet user data. This is mainly work done during the summer of 2020.
